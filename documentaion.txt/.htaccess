@@ -1,0 +1,15 @@
+CuredProject Documentation
+
+1. Overview:
+   This project is a PHP application that allows users to mark patients as cured in an online MySQL database.
+
+2. Structure:
+   - assets/: Contains CSS files for styling.
+   - config/: Holds database configuration.
+   - controllers/: Contains the PatientController.php, managing patient data.
+   - views/: Contains the main view for displaying and curing patients.
+   - index.php: Main application entry point.
+
+3. Database Setup:
+   - Use an online MySQL database (like freesqldatabase.com).
+   - Create a 'patients' table with columns: id (INT, AUTO_INCREMENT), name (VARCHAR), age (INT), condition (VARCHAR), cured (TINYINT).

@@ -1,0 +1,12 @@
+PHP-Cured-Project/
+├── assets/
+│   └── styles.css
+├── config/
+│   └── database.php
+├── controllers/
+│   └── PatientController.php
+├── views/
+│   └── index.php
+└── documentation.txt
+└── .htaccess
+└── index.php
